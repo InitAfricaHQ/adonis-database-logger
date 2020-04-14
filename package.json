@@ -1,0 +1,33 @@
+{
+  "name": "adonis-database-logger",
+  "version": "1.0.0",
+  "description": "Database driver for Adonis Logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InitAfricaHQ/adonis-database-logger.git"
+  },
+  "keywords": [
+    "adonisjs",
+    "logger",
+    "winston",
+    "sql"
+  ],
+  "author": "afolabiabass",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InitAfricaHQ/adonis-database-logger/issues"
+  },
+  "homepage": "https://github.com/InitAfricaHQ/adonis-database-logger#readme",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "winston": "^3.2.1",
+    "winston-sql-transport": "^1.0.0"
+  },
+  "devDependencies": {
+    "@adonisjs/fold": "^4.0.9"
+  }
+}
